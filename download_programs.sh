@@ -31,14 +31,3 @@ mv ~/.local/bin/* .
 #Download HTSeq using pip
 ./pip install HTSeq --user
 mv ~/.local/bin/* .
-
-#Download Miniconda and Cutadapt.  Cutadapt is a dependency of TrimGalore! and requires Miniconda to install
-wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh
-chmod 775 Miniconda3-latest-Linux-x86_64.sh
-./Miniconda3-latest-Linux-x86_64.sh
-#Miniconda asks "Do you accept the license terms? [yes|no]" and "Miniconda3 will now be installed into this location: ~/miniconda3" and "Press ENTER to confirm the location"
-#chmod 775 -R ~/miniconda3/
-mv ~/miniconda3/ .
-
-~/miniconda3/bin/conda install -c bioconda cutadapt
-#Cutadapt asks "Proceed ([y]/n)?"
