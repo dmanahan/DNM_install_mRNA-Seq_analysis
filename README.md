@@ -8,7 +8,8 @@ chmod 775 Miniconda3-latest-Linux-x86_64.sh
 
 #Miniconda will prompt you to read the license agreement and confirm the location to which it will be installed.
 #"Do you accept the license terms? [yes|no]"
-"Miniconda3 will now be installed into this location: ~/miniconda3" and "Press ENTER to confirm the location"
+#"Miniconda3 will now be installed into this location: ~/miniconda3" and "Press ENTER to confirm the location"
 
 #Continue to type the following into the following command line and execute:
+
 mv ~/miniconda3/ .
