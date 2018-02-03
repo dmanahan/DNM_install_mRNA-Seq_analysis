@@ -1,4 +1,4 @@
-# DNM_install_mRNA-Seq_analysis
+# Install_RNA-Seq_software
 
 #To begin, download and install Miniconda.  Miniconda is a python package used to install and compile Python programs.  Type into the command line and execute:
 
