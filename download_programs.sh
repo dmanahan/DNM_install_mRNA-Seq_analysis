@@ -32,6 +32,8 @@ mv ~/.local/bin/* .
 ./pip install HTSeq --user
 mv ~/.local/bin/* .
 
+#Download reference genome fasta and annotations files from GENCODE
+
 #Generate reference genomes
 mkdir STAR_hg38_index
 cd STAR_hg38_index
