@@ -28,6 +28,11 @@ wget https://bootstrap.pypa.io/get-pip.py
 python get-pip.py --user
 mv ~/.local/bin/* .
 
-#Download HTSeq using pip
+#Download HTSeq using pip.  NOT QUITE THERE
 ./pip install HTSeq --user
 mv ~/.local/bin/* .
+
+#Generate reference genomes
+mkdir STAR_hg38_index
+cd STAR_hg38_index
+qsub STAR_index_hg38.pbs
