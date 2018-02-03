@@ -1,5 +1,7 @@
 # Install RNA-Seq software
 
+Navigate to your working directory.
+
 To begin, download and install Miniconda.  Miniconda is a python package used to install and compile Python programs.
 
     wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh
