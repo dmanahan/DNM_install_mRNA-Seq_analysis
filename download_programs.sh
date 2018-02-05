@@ -31,6 +31,7 @@ mv ~/.local/bin/* .
 #Download HTSeq using pip.  NOT QUITE THERE
 ./pip install HTSeq --user
 mv ~/.local/bin/* .
+#NOTES: pip download, find pip in .local/bin. install HTSeq as website directs, then set path which is in .local/bin
 
 #Download reference genome fasta and annotations files from GENCODE
 
