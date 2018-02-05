@@ -17,16 +17,13 @@ tar xvzf trim_galore.tar.gz
 wget https://github.com/alexdobin/STAR/archive/2.5.3a.tar.gz
 tar -xzf 2.5.3a.tar.gz
 
-#Download samtools
-git clone https://github.com/samtools/samtools.git
-cd samtools
-make
-cd ..
 
 #Download pip
 wget https://bootstrap.pypa.io/get-pip.py
 python get-pip.py --user
 mv ~/.local/bin/* .
+
+pip install --user --upgrade cutadapt
 
 #Download HTSeq using pip.  NOT QUITE THERE
 ./pip install HTSeq --user
