@@ -39,3 +39,6 @@ qsub STAR_index_hg38.pbs
 
 wget http://hgdownload.soe.ucsc.edu/admin/exe/linux.x86_64/wigEncode
 wget http://hgdownload.soe.ucsc.edu/admin/exe/linux.x86_64/fetchChromSizes
+
+./fetchChromSizes hg38 > hg38.chrom.sizes
+../wigToBigWig DM-01Signal.Unique.str1.out.wig ../hg38.chrom.sizes DM01.bw
