@@ -36,3 +36,6 @@ mv ~/.local/bin/* .
 mkdir STAR_hg38_index
 cd STAR_hg38_index
 qsub STAR_index_hg38.pbs
+
+wget http://hgdownload.soe.ucsc.edu/admin/exe/linux.x86_64/wigEncode
+wget http://hgdownload.soe.ucsc.edu/admin/exe/linux.x86_64/fetchChromSizes
